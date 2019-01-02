@@ -7,4 +7,3 @@ None of these files belong to any package.	Add-On		Keine dieser Dateien stammt a
 Open all	Add-On		Alle öffnen
 {0, plural,=1{The file '%filename%' does not belong to any package.}other{These # files do not belong to any package:\n}}	Add-On		{0, plural,=1{Die Datei '%filename%' stammt aus keinem Paket.}other{Diese # Dateien stammen nicht aus einem Paket:\n}}
 Cancel	Add-On		Abbrechen
-en
