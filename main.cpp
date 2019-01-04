@@ -4,6 +4,15 @@
  *
  * Authors:
  *	Humdinger, humdingerb@gmail.com
+ *
+ * This Tracker add-on looks for the SYS:PACKAGE_FILE attribute of files
+ * and opens the packages the files come from.
+ *
+ * + Files without a SYS:PACKAGE_FILE attribute are listed in an alert.
+ * + If more than 'kMaxAlertFiles' are without SYS:PACKAGE_FILE attribute,
+ *   these files are not listed individually.
+ * + If a group of more than 'kMaxFileCount' files are used with the app, an
+ *   alert asks for confirmation.
  */
 
 #include <stdio.h>
