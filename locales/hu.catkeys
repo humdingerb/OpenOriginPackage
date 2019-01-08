@@ -1,0 +1,9 @@
+1	Hungarian	application/x-vnd.humdinger-OpenOriginPackage	4222253964
+You have selected %filecount% files.\nDo you really want to open all of their packages?	Add-On		%filecount% fájlt jelöltél ki.\nBiztosan meg szeretnéd nyitni a csomagjaikat?
+OK	Add-On		OK
+The rest of the files don't belong to any package.	Add-On		A többi fájl nem csomagból származik.
+None of these files belong to any package.	Add-On		A kiválasztott fájlok nem csomagból származnak.
+Open all	Add-On		Csomagok megnyitása
+{0, plural,=1{The file '%filename%' does not belong to any package.}other{These # files do not belong to any package:\n}}	Add-On		{0, plural,=1{A fájl '%filename%' egyetlen csomaghoz sem tartozik.}other{A kiválasztott # fájl egyetlen csomaghoz sem tartozik:\n}}
+Cancel	Add-On		Mégsem
+Open Origin Package	System name		Csomagkereső

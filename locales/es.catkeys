@@ -1,0 +1,9 @@
+1	Spanish	application/x-vnd.humdinger-OpenOriginPackage	4222253964
+You have selected %filecount% files.\nDo you really want to open all of their packages?	Add-On		Usted ha seleccionado %filecount% archivos.\n¿Realmente desea abrir todos sus paquetes?
+OK	Add-On		Aceptar
+The rest of the files don't belong to any package.	Add-On		El resto de los archivos no pertenece a ningún paquete.
+None of these files belong to any package.	Add-On		Ninguno de estos archivos pertenece a ningún paquete.
+Open all	Add-On		Abrir todos
+{0, plural,=1{The file '%filename%' does not belong to any package.}other{These # files do not belong to any package:\n}}	Add-On		{0, plural,=1{El archivo '%filename%' no pertenece a ningún paquete.}other{Estos # archivos no pertenecen a ningún paquete:\n}}
+Cancel	Add-On		Cancelar
+Open Origin Package	System name		Open Origin Package
