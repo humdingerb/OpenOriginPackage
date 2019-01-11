@@ -153,7 +153,7 @@ process_refs(entry_ref directoryRef, BMessage* msg, void *)
 			"=1{The package '%packagename%' cannot be found. It may have been "
 				"uninstalled.}"
 			"other{The following # packages cannot be found. They may have "
-				"been uninstalled:\n}}"));
+				"been uninstalled.\n}}"));
 		textFormat.Format(notFoundText, count);
 
 		if (count == 1)
@@ -171,7 +171,7 @@ process_refs(entry_ref directoryRef, BMessage* msg, void *)
 		} else if (foundSome == false) {
 			notFoundText = B_TRANSLATE(
 				"None of the packages of these files could be found. They may "
-				"have been uninstalled");
+				"have been uninstalled.");
 		}
 		if (alertText != "")
 			alertText << "\n\n";
