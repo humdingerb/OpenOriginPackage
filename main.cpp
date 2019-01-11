@@ -65,6 +65,7 @@ process_refs(entry_ref directoryRef, BMessage* msg, void *)
 	// Find origin packages and open them
 	BStringList packageList;
 	BStringList notInPackageList;
+	BStringList packageNotFoundList;
 	BEntry fileEntry;
 	bool foundSome = false;
 
@@ -99,23 +100,29 @@ process_refs(entry_ref directoryRef, BMessage* msg, void *)
 
 		status_t error = pathFinder.FindPaths(B_FIND_PATH_PACKAGES_DIRECTORY,
 			paths);
-
+		bool foundInNoLocation = true;
 		for (int i = 0; i < paths.CountStrings(); ++i) {
 			if (error == B_OK && path.SetTo(paths.StringAt(i)) == B_OK
 					&& path.Append(packageName.String()) == B_OK) {
 				status = get_ref_for_path(path.Path(), &ref);
 				if (status == B_OK) {
-					be_roster->Launch(&ref);
-					foundSome = true;
+					status = be_roster->Launch(&ref);
+					if (status == B_OK) {
+						foundSome = true;
+						foundInNoLocation = false;
+					}
 				}
 			}
 		}
+		if (foundInNoLocation && !packageNotFoundList.HasString(packageName))
+			packageNotFoundList.Add(packageName);
 	}
 
 	// Inform that some of the files were not from a package
+	int32 count = 0;
+	BString alertText;
 	if (!notInPackageList.IsEmpty()) {
-		BString alertText;
-		int32 count = notInPackageList.CountStrings();
+		count = notInPackageList.CountStrings();
 		static BStringFormat textFormat(B_TRANSLATE("{0, plural,"
 			"=1{The file '%filename%' does not belong to any package.}"
 			"other{These # files do not belong to any package:\n}}"));
@@ -124,7 +131,6 @@ process_refs(entry_ref directoryRef, BMessage* msg, void *)
 		if (count == 1)
 			alertText.ReplaceFirst("%filename%", notInPackageList.First());
 		else if	(count < kMaxAlertFiles) {
-			BString fileName;
 			for (int32 i = 0; i < count; i++) {
 				alertText << "\t‣ ";
 				alertText << notInPackageList.StringAt(i);
@@ -137,7 +143,41 @@ process_refs(entry_ref directoryRef, BMessage* msg, void *)
 			alertText = B_TRANSLATE(
 				"None of these files belong to any package.");
 		}
+	}
 
+	// Inform that some packages were not found
+	if (!packageNotFoundList.IsEmpty()) {
+		BString notFoundText;
+		count = packageNotFoundList.CountStrings();
+		static BStringFormat textFormat(B_TRANSLATE("{0, plural,"
+			"=1{The package '%packagename%' cannot be found. It may have been "
+				"uninstalled.}"
+			"other{The following # packages cannot be found. They may have "
+				"been uninstalled:\n}}"));
+		textFormat.Format(notFoundText, count);
+
+		if (count == 1)
+			notFoundText.ReplaceFirst("%packagename%", packageNotFoundList.First());
+		else if	(count < kMaxAlertFiles) {
+			for (int32 i = 0; i < count; i++) {
+				notFoundText << "\t‣ ";
+				notFoundText << packageNotFoundList.StringAt(i);
+				notFoundText << "\n";
+			}
+		} else if (foundSome == true) {
+			notFoundText = B_TRANSLATE(
+				"The packages of rest of these files couldn't be found. They "
+				"may have been uninstalled.");
+		} else if (foundSome == false) {
+			notFoundText = B_TRANSLATE(
+				"None of the packages of these files could be found. They may "
+				"have been uninstalled");
+		}
+		if (alertText != "")
+			alertText << "\n\n";
+		alertText << notFoundText;
+	}
+	if (!notInPackageList.IsEmpty() || !packageNotFoundList.IsEmpty()) {
 		// wait 0.3 secs + 0.1 sec for every found package
 		// to have the BAlert pop up on top of the HaikuDepot window
 		if (foundSome)
