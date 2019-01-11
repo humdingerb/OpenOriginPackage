@@ -13,6 +13,8 @@
  *   these files are not listed individually.
  * + If a group of more than 'kMaxFileCount' files are used with the app, an
  *   alert asks for confirmation.
+ * + If the packages of files aren't found, those packages are listed in an
+ *   alert.
  */
 
 #include <stdio.h>
@@ -33,7 +35,7 @@
 #define B_TRANSLATION_CONTEXT "Add-On"
 
 static const int32 kMaxFileCount = 10;
-static const int32 kMaxAlertFiles = 40;
+static const int32 kMaxAlertFiles = 30;
 
 
 extern "C" void
