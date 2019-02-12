@@ -109,15 +109,17 @@ process_refs(entry_ref directoryRef, BMessage* msg, void *)
 				status = get_ref_for_path(path.Path(), &ref);
 				if (status == B_OK) {
 					status = be_roster->Launch(&ref);
-					if (status == B_OK) {
+					if ((status == B_OK) || (status == B_ALREADY_RUNNING)) {
 						foundSome = true;
 						foundInNoLocation = false;
 					}
 				}
 			}
 		}
-		if (foundInNoLocation && !packageNotFoundList.HasString(packageName))
-			packageNotFoundList.Add(packageName);
+		if (foundInNoLocation == true) {
+			if (!packageNotFoundList.HasString(packageName))
+				packageNotFoundList.Add(packageName);
+		}
 	}
 
 	// Inform that some of the files were not from a package
