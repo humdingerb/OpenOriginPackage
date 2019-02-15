@@ -8,5 +8,5 @@ Open all	Add-On		Ouvrir tout
 Cancel	Add-On		Abandon
 The packages of rest of these files couldn't be found. They may have been uninstalled.	Add-On		Impossible trouver les paquets du reste de ces fichiers. Ils ont peut être été désinstallés.
 None of the packages of these files could be found. They may have been uninstalled.	Add-On		Impossible de trouver les paquets de ces fichiers. Ils ont peut être été désinstallés.
-{0, plural,=1{The package '%packagename%' cannot be found. It may have been uninstalled.}other{The following # packages cannot be found. They may have been uninstalled.\n}}	Add-On		{0, plural,=1{Impossible de trouver le paquet '%packagename%'. Il a peut être été désinstallé.}other{Impossible de trouver les # packages suivant. Ils ont peut être été désinstallés.\n}}
+{0, plural,=1{The package '%packagename%' cannot be found. It may have been uninstalled.}other{The following # packages cannot be found. They may have been uninstalled.\n}}	Add-On		{0, plural,=1{Impossible de trouver le paquet '%packagename%'. Il a peut être été désinstallé.}other{Impossible de trouver les # pacquets suivant. Ils ont peut être été désinstallés.\n}}
 Open Origin Package	System name		Ouvrir le paquet d'origine
