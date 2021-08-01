@@ -1,12 +1,12 @@
 1	Portuguese	application/x-vnd.humdinger-OpenOriginPackage	55719808
-You have selected %filecount% files.\nDo you really want to open all of their packages?	Add-On		Você selecionou %filecount% ficheiros.\nPretende mesmo abrir todos os seus pacotes?
-OK	Add-On		OK
-The rest of the files don't belong to any package.	Add-On		Os ficheiros restantes não pertencem a nenhum pacote.
-None of these files belong to any package.	Add-On		Nenhum destes ficheiros pertence a qualquer pacote.
-Open all	Add-On		Abrir todos
 {0, plural,=1{The file '%filename%' does not belong to any package.}other{These # files do not belong to any package:\n}}	Add-On		{0, plural,=1{O ficheiro '%filename%' não pertence a nenhum pacote.}other{Estes # ficheiros não pertencem a nenhum pacote:\n}}
-Cancel	Add-On		Cancelar
-The packages of rest of these files couldn't be found. They may have been uninstalled.	Add-On		Os pacotes correspondente aos ficheiros restantes não foram encontrados. Poderão ter sido desinstalados"
-None of the packages of these files could be found. They may have been uninstalled.	Add-On		Nenhum dos pacotes correspondentes a estes ficheiros foi encontrado. Poderão ter sido desinstalados.
 {0, plural,=1{The package '%packagename%' cannot be found. It may have been uninstalled.}other{The following # packages cannot be found. They may have been uninstalled.\n}}	Add-On		{0, plural,=1{O pacote '%packagename%' não foi encontrado. Poderá ter sido desinstalado.}other{Os # pacotes seguintes não foram encontrados. Poderão ter sido desinstalados.\n}}
+Cancel	Add-On		Cancelar
+None of the packages of these files could be found. They may have been uninstalled.	Add-On		Nenhum dos pacotes correspondentes a estes ficheiros foi encontrado. Poderão ter sido desinstalados.
+None of these files belong to any package.	Add-On		Nenhum destes ficheiros pertence a qualquer pacote.
+OK	Add-On		OK
+Open all	Add-On		Abrir todos
+The packages of rest of these files couldn't be found. They may have been uninstalled.	Add-On		Os pacotes correspondente aos ficheiros restantes não foram encontrados. Poderão ter sido desinstalados"
+The rest of the files don't belong to any package.	Add-On		Os ficheiros restantes não pertencem a nenhum pacote.
+You have selected %filecount% files.\nDo you really want to open all of their packages?	Add-On		Você selecionou %filecount% ficheiros.\nPretende mesmo abrir todos os seus pacotes?
 Open Origin Package	System name		Abrir Pacote de Origem

@@ -1,0 +1,12 @@
+1	Czech	application/x-vnd.humdinger-OpenOriginPackage	55719808
+{0, plural,=1{The file '%filename%' does not belong to any package.}other{These # files do not belong to any package:\n}}	Add-On		{0, plural,=1{Soubor '%filename%' nepatří žádnému balíčku.}few{Tyto # soubory nepatří žádnému balíčku:\n}other{Těchto # souborů nepatří žádnému balíčku:\n}}
+{0, plural,=1{The package '%packagename%' cannot be found. It may have been uninstalled.}other{The following # packages cannot be found. They may have been uninstalled.\n}}	Add-On		{0, plural,=1{Balíček '%packagename%' nenalezen. Možná je odinstalován.}few{Tyto # balíčky nelze nalézt. Možná jsou odinstalovány.\n}other{Těchto # balíčků nelze nalézt. Možná jsou odinstalovány.\n}}
+Cancel	Add-On		Zrušit
+None of the packages of these files could be found. They may have been uninstalled.	Add-On		Žádné balíčky z těchto souborů nelze nalézt. Možná jsou odinstalované.
+None of these files belong to any package.	Add-On		Žádný z těchto souborů nepatří žádnému balíčku.
+OK	Add-On		OK
+Open all	Add-On		Otevřít vše
+The packages of rest of these files couldn't be found. They may have been uninstalled.	Add-On		Balíčky ze zbytku těchto souborů nelze nalézt. Možná jsou odinstalované.
+The rest of the files don't belong to any package.	Add-On		Zbytek souborů nepatří žádnému balíčku.
+You have selected %filecount% files.\nDo you really want to open all of their packages?	Add-On		Je vybráno %filecount% souborů.\nOpravdu chcete otevřít všechny balíčky?
+Open Origin Package	System name		Otevřít původní balíček

@@ -1,12 +1,12 @@
 1	French	application/x-vnd.humdinger-OpenOriginPackage	55719808
-You have selected %filecount% files.\nDo you really want to open all of their packages?	Add-On		Vous avez sélectionné %filecount% fichiers.\nVoulez vous vraiment ouvrir tous les paquets correspondant ?
-OK	Add-On		OK
-The rest of the files don't belong to any package.	Add-On		Les fichiers restant n'appartiennent à aucun paquet.
-None of these files belong to any package.	Add-On		Aucun de ces fichiers n'appartient à un paquet.
-Open all	Add-On		Ouvrir tout
 {0, plural,=1{The file '%filename%' does not belong to any package.}other{These # files do not belong to any package:\n}}	Add-On		{0, plural,=1{Le fichier '%filename%' n'appartient à aucun paquet.}other{Ces # fichiers n'appartiennent à aucun paquet.:\n}}
+{0, plural,=1{The package '%packagename%' cannot be found. It may have been uninstalled.}other{The following # packages cannot be found. They may have been uninstalled.\n}}	Add-On		{0, plural,=1{Impossible de trouver le paquet '%packagename%'. Il a peut être été désinstallé.}other{Impossible de trouver les # paquets suivant. Ils ont peut être été désinstallés.\n}}
 Cancel	Add-On		Abandon
-The packages of rest of these files couldn't be found. They may have been uninstalled.	Add-On		Impossible trouver les paquets du reste de ces fichiers. Ils ont peut être été désinstallés.
 None of the packages of these files could be found. They may have been uninstalled.	Add-On		Impossible de trouver les paquets de ces fichiers. Ils ont peut être été désinstallés.
-{0, plural,=1{The package '%packagename%' cannot be found. It may have been uninstalled.}other{The following # packages cannot be found. They may have been uninstalled.\n}}	Add-On		{0, plural,=1{Impossible de trouver le paquet '%packagename%'. Il a peut être été désinstallé.}other{Impossible de trouver les # pacquets suivant. Ils ont peut être été désinstallés.\n}}
+None of these files belong to any package.	Add-On		Aucun de ces fichiers n'appartient à un paquet.
+OK	Add-On		D'accord
+Open all	Add-On		Ouvrir tout
+The packages of rest of these files couldn't be found. They may have been uninstalled.	Add-On		Impossible trouver les paquets du reste de ces fichiers. Ils ont peut être été désinstallés.
+The rest of the files don't belong to any package.	Add-On		Les fichiers restant n'appartiennent à aucun paquet.
+You have selected %filecount% files.\nDo you really want to open all of their packages?	Add-On		Vous avez sélectionné %filecount% fichiers.\nVoulez vous vraiment ouvrir tous les paquets correspondant ?
 Open Origin Package	System name		Ouvrir le paquet d'origine

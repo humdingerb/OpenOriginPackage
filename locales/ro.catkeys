@@ -1,0 +1,12 @@
+1	Romanian	application/x-vnd.humdinger-OpenOriginPackage	55719808
+{0, plural,=1{The file '%filename%' does not belong to any package.}other{These # files do not belong to any package:\n}}	Add-On		{0, plural,=1{Fișierul '%filename%' nu aparține niciunui pachet.}other{Aceste # fișiere nu aparțin niciunui pachet.\n}}
+{0, plural,=1{The package '%packagename%' cannot be found. It may have been uninstalled.}other{The following # packages cannot be found. They may have been uninstalled.\n}}	Add-On		{0, plural,=1{Pachetul '%packagename%' nu poate fi găsit. Este posibil să fi fost dezinstalat.}other{Următoarele # pachete nu pot fi găsite. Este posibil să fi fost dezinstalate.\n}}
+Cancel	Add-On		Anulează
+None of the packages of these files could be found. They may have been uninstalled.	Add-On		Nu s-a putut găsi niciunul dintre pachetele acestor fișiere. Este posibil să fi fost dezinstalate.
+None of these files belong to any package.	Add-On		Niciunul dintre aceste fișiere nu aparține unui pachet.
+OK	Add-On		OK
+Open all	Add-On		Deschide toate
+The packages of rest of these files couldn't be found. They may have been uninstalled.	Add-On		Nu s-au putut găsi pachetele restului de fișiere. Este posibil să fi fost dezinstalate.
+The rest of the files don't belong to any package.	Add-On		Restul fișierelor nu aparțin niciunui pachet.
+You have selected %filecount% files.\nDo you really want to open all of their packages?	Add-On		Ați selectat %filecount% fișiere.\nSigur doriți să deschideți toate pachetele acestora?
+Open Origin Package	System name		Open Origin Package

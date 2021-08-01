@@ -1,12 +1,12 @@
 1	German	application/x-vnd.humdinger-OpenOriginPackage	55719808
-You have selected %filecount% files.\nDo you really want to open all of their packages?	Add-On		Es wurden %filecount% Dateien ausgewählt.\nSollen wirklich all ihre Pakete geöffnet werden?
-OK	Add-On		OK
-The rest of the files don't belong to any package.	Add-On		Die restlichen Dateien stammen aus keinem Paket.
-None of these files belong to any package.	Add-On		Keine dieser Dateien stammt aus einem Paket.
-Open all	Add-On		Alle öffnen
 {0, plural,=1{The file '%filename%' does not belong to any package.}other{These # files do not belong to any package:\n}}	Add-On		{0, plural,=1{Die Datei '%filename%' stammt aus keinem Paket.}other{Diese # Dateien stammen nicht aus einem Paket:\n}}
-Cancel	Add-On		Abbrechen
-The packages of rest of these files couldn't be found. They may have been uninstalled.	Add-On		Die zugehörigen Pakete für die restichen Dateien wurden nicht gefunden. Wahrscheinlich wurden sie deinstalliert.
-None of the packages of these files could be found. They may have been uninstalled.	Add-On		Für keine dieser Dateien wurden die zugehörigen Pakete gefunden. Wahrscheinlich wurden sie deinstalliert.
 {0, plural,=1{The package '%packagename%' cannot be found. It may have been uninstalled.}other{The following # packages cannot be found. They may have been uninstalled.\n}}	Add-On		{0, plural,=1{Das Paket '%packagename%' wurde nicht gefunden. Wahrscheinlich wurde es deinstalliert.}other{Folgende # Pakete wurden nicht gefunden. Wahrscheinlich wurden sie deinstalliert.\n}}
+Cancel	Add-On		Abbrechen
+None of the packages of these files could be found. They may have been uninstalled.	Add-On		Für keine dieser Dateien wurden die zugehörigen Pakete gefunden. Wahrscheinlich wurden sie deinstalliert.
+None of these files belong to any package.	Add-On		Keine dieser Dateien stammt aus einem Paket.
+OK	Add-On		OK
+Open all	Add-On		Alle öffnen
+The packages of rest of these files couldn't be found. They may have been uninstalled.	Add-On		Die zugehörigen Pakete für die restichen Dateien wurden nicht gefunden. Wahrscheinlich wurden sie deinstalliert.
+The rest of the files don't belong to any package.	Add-On		Die restlichen Dateien stammen aus keinem Paket.
+You have selected %filecount% files.\nDo you really want to open all of their packages?	Add-On		Es wurden %filecount% Dateien ausgewählt.\nSollen wirklich all ihre Pakete geöffnet werden?
 Open Origin Package	System name		Zugehöriges Paket öffnen

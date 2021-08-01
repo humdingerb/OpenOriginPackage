@@ -1,0 +1,12 @@
+1	Catalan	application/x-vnd.humdinger-OpenOriginPackage	55719808
+{0, plural,=1{The file '%filename%' does not belong to any package.}other{These # files do not belong to any package:\n}}	Add-On		{0, plural,=1{El fitxer %filename% no pertany a cap paquet.}other{Aquests # fitxers no pertanyen a cap paquet:\n}}
+{0, plural,=1{The package '%packagename%' cannot be found. It may have been uninstalled.}other{The following # packages cannot be found. They may have been uninstalled.\n}}	Add-On		{0, plural,=1{El paquet %packagename% no es pot trobar. Es pot haver desinstal·lat.}other{Els següents # paquets no es poden trobar. Es poden haver desinstal·lat.\n}}
+Cancel	Add-On		Cancel·la
+None of the packages of these files could be found. They may have been uninstalled.	Add-On		No s'ha trobat cap dels paquets d'aquests fitxers. És possible que s'hagin desinstal·lat.
+None of these files belong to any package.	Add-On		Cap d’aquests fitxers no pertany a cap paquet.
+OK	Add-On		D'acord
+Open all	Add-On		Obre-ho tot
+The packages of rest of these files couldn't be found. They may have been uninstalled.	Add-On		No es poden trobar els paquets de la resta d'aquests fitxers. És possible que s'hagin desinstal·lat.
+The rest of the files don't belong to any package.	Add-On		La resta de fitxers no pertanyen a cap paquet.
+You have selected %filecount% files.\nDo you really want to open all of their packages?	Add-On		Heu seleccionat %filecount% fitxers.\nRealment en voleu obrir tots els paquets?
+Open Origin Package	System name		Obre'n el paquet d'origen

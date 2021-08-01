@@ -1,0 +1,12 @@
+1	Turkish	application/x-vnd.humdinger-OpenOriginPackage	55719808
+{0, plural,=1{The file '%filename%' does not belong to any package.}other{These # files do not belong to any package:\n}}	Add-On		{0, plural,=1{'%filename%' dosyası herhangi bir pakete ait değil.}other{Bu # dosya herhangi bir pakete ait değil:\n}}
+{0, plural,=1{The package '%packagename%' cannot be found. It may have been uninstalled.}other{The following # packages cannot be found. They may have been uninstalled.\n}}	Add-On		{0, plural,=1{'%packagename%' paketi bulunamadı. Kaldırılmış olabilir.}other{Şu # paket bulunamadı. Kaldırılmış olabilirler.\n}}
+Cancel	Add-On		İptal
+None of the packages of these files could be found. They may have been uninstalled.	Add-On		Bu dosyaların paketleri bulunamadı. Kaldırılmış olabilirler
+None of these files belong to any package.	Add-On		Bu dosyaların hiçbiri herhangi bir pakete ait değil.
+OK	Add-On		Tamam
+Open all	Add-On		Tümünü aç
+The packages of rest of these files couldn't be found. They may have been uninstalled.	Add-On		Geri kalan bu dosyaların paketleri bulunamadı. Kaldırılmış olabilirler.
+The rest of the files don't belong to any package.	Add-On		Geri kalan bu dosyalar herhangi bir pakete ait değil.
+You have selected %filecount% files.\nDo you really want to open all of their packages?	Add-On		%filecount% dosya seçtiniz.\nHepsinin paketlerini açmak istediğinizden emin misiniz?
+Open Origin Package	System name		Paketini Aç

@@ -1,0 +1,12 @@
+1	Friulian	application/x-vnd.humdinger-OpenOriginPackage	55719808
+{0, plural,=1{The file '%filename%' does not belong to any package.}other{These # files do not belong to any package:\n}}	Add-On		{0, plural,=1{Il file '%filename%' nol fâs part di nissun pachet.}other{Chescj # file no fasin part di nissun pachet:\n}}
+{0, plural,=1{The package '%packagename%' cannot be found. It may have been uninstalled.}other{The following # packages cannot be found. They may have been uninstalled.\n}}	Add-On		{0, plural,=1{Il pachet '%packagename%' nol pues jessi cjatât. Al podarès jessi stât disinstalât.}other{I # pachets chi daurman no puedin jessi cjatâts. A podaressin jessi stâts disinstalâts.\n}}
+Cancel	Add-On		Anule
+None of the packages of these files could be found. They may have been uninstalled.	Add-On		Nissun dai pachets di chescj file a puedin jessi cjatâts. A podaressin jessi stâts disinstalâts.
+None of these files belong to any package.	Add-On		Nissun di chescj file al fâs part di cualchi pachet.
+OK	Add-On		Va ben
+Open all	Add-On		Vierç ducj
+The packages of rest of these files couldn't be found. They may have been uninstalled.	Add-On		I pachets dal rest di chescj file no puedin jessi cjatâts. A podaressin jessi stâts disinstalâts.
+The rest of the files don't belong to any package.	Add-On		Il rest dai file no fasin part di nissun pachet.
+You have selected %filecount% files.\nDo you really want to open all of their packages?	Add-On		Tu âs selezionât %filecount% file.\nVierzi pardabon ducj i lôr pachets?
+Open Origin Package	System name		Open Origin Package
