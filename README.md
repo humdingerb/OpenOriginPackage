@@ -1,3 +1,8 @@
+* * *
+This repository is in archived, read-only mode.
+OpenOriginPackage development continues at [Codeberg](https://codeberg.org/humdinger/OpenOriginPackage).
+* * *
+
 ## ![Open Origin Package icon](./artwork/Icon.png) Open Origin Package
 for [Haiku](https://www.haiku-os.org)
 
